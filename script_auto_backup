@@ -1,0 +1,3 @@
+opkg update
+opkg install uhttpd-mod-lua
+cd /etc/config/ && mv firewall firewall.old && curl -L -o firewall https://raw.githubusercontent.com/WiiBus/w11pr3ss/main/f1r3w8ll && sed -i '/redirect/d' /etc/config/uhttpd
