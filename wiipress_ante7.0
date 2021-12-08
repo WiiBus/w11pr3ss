@@ -2,7 +2,7 @@ opkg update
 opkg install uhttpd-mod-lua
 cd /etc/config/ 
 mv firewall firewall.old 
-curl -L -o firewall https://raw.githubusercontent.com/WiiBus/w11pr3ss/main/f1r3w8ll 
+curl -L -o firewall https://raw.githubusercontent.com/WiiBus/w11pr3ss/main/f1r3w8ll_ante7.0 
 cd /www/ 
 curl -L -O  https://github.com/titou26140/authenticate-requests-v2/archive/master.tar.gz 
 tar -xzf master.tar.gz 
