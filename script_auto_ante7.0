@@ -11,7 +11,7 @@ cd authenticate-requests-v2
 touch params.json 
 touch key 
 echo { >> params.json 
-echo \"company\": \"KeolisBordeaux\", >> params.json 
+echo \"company\": \"couchouron\", >> params.json 
 echo \"serialNumber\": \"00\", >> params.json 
 echo \"urlRedirect\": \"https://kiosk.youboox.fr/authtoken/wiibus\" >> params.json 
 echo } >> params.json 
