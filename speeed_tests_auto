@@ -1,0 +1,3 @@
+echo “-------------------” > /root/speed_test_results/`date +%Y%m%d`
+date > /root/speed_test_results/`date +%Y%m%d`
+speedtest-netperf.sh -t 10 | grep 'Download\|Upload' > /root/speed_test_results/`date +%Y%m%d`
